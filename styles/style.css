@@ -22,6 +22,7 @@ p {
 
 header {
   position: fixed;
+  top: 0px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
   width: 100%;
   display: flex;
@@ -149,7 +150,7 @@ footer div {
   }
 
   .content {
-    flex-direction: column;
+    text-align: center;
     margin: 0 auto;
     padding: 100px 0;
     Color: black;
@@ -170,4 +171,8 @@ footer div {
   .business_information {
     grid-row: 3;
   }
+}
+.LinkList {
+  text-align: center;
+  list-style-type: none;
 }
