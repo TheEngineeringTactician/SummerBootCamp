@@ -1,4 +1,5 @@
-img {
+img,
+.videoContainer {
   width: 60%;
   margin: 0 auto;
   display: block;
@@ -12,4 +13,62 @@ p {
 body {
   background-color: #0d3980;
   color: #fff203;
+  margin: 0 px;
+  padding: 0px;
+}
+
+.video {
+  width: 100%;
+  height: 400px;
+}
+
+:root {
+  --Headercolor: #2E4057;
+  --Bordercolor: ##424b54;
+  --splittercolor: #FFBB33;
+  --bottomcolor: #4c4c4c;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
+  display: flex;
+  flex-direction: row;
+  background-color: var(--Headercolor);
+  font-weight: 300;
+  padding: 15px;
+  justify-content: center;
+  margin-top: 0px;
+  padding-top: 0 px;
+  /* margin-bottom: 90%; */
+}
+
+header h1 {
+  padding-right: 40px;
+  border-right: 1pxw solid gray;
+  color: white;
+}
+
+header ul {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+  margin-left: 40px;
+}
+
+header li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+header li {
+  align-self: center;
+  text-decoration: none;
+}
+
+header li :hover {
+  text-decoration: underline;
+  color: #64829b;
 }
